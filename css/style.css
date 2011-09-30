@@ -76,18 +76,22 @@ medgray 948579
 body {
 
     font: 300 16px/1.5 "Ubuntu", "Helvetica Neue",sans-serif;
-    color: #a19fbc;
+    color: #948579;
     background-color: #473934;
+}
+
+.see-through {
+    opacity: 0;
+}
+
+a,a:visited {
+    text-decoration: none;
+    color: #a19fbc;
 }
 a:hover {
 
-    color: #948579;
-}
-a,a:visited {
-    text-decoration: none;
     color: #6d756c;
 }
-
 li {
     list-style: none;
 }
@@ -95,6 +99,8 @@ li {
 #container {
     margin: 0 auto;
     width: 40em;
+    -moz-transition: opacity 1.5s ease-in;
+    transition: opacity 1.5s ease-in;
 }
 #main {
 
@@ -104,10 +110,6 @@ li {
 
     text-align: left;
 }
-
-
-
-
 
 
 
