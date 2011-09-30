@@ -99,8 +99,9 @@ li {
 #container {
     margin: 0 auto;
     width: 40em;
-    -moz-transition: opacity 1.5s ease-in;
-    transition: opacity 1.5s ease-in;
+    -moz-transition: opacity 1.5s ease-in 0.5s;
+    -webkit-transition: opacity 1.5s ease-in 0.5s;
+    transition: opacity 1.5s ease-in 0.5s;
 }
 #main {
 
